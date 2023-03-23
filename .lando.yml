@@ -1,0 +1,8 @@
+name: bugrepro
+recipe: symfony
+config:
+  php: '7.4'
+  xdebug: true
+services:
+  appserver:
+    composer_version: 2-latest
